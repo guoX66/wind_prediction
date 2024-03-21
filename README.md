@@ -6,15 +6,11 @@
 
 ### 训练过程损失（以wind_y为例）：
 
-
-
-
-
-
+![image](https://github.com/guoX66/wind_prediction/blob/main/assets/loss.jpg)
 
 ### 预测过程图（以wind_y为例）：
 
-
+![image](https://github.com/guoX66/wind_prediction/blob/main/assets/pre.jpg)
 
 
 
@@ -81,5 +77,3 @@ python deal.py --file datasets --output Seq_LSTM/data/static.npz
 ```bash
 cd Seq_LSTM
 ```
-
-
