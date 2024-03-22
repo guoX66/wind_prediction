@@ -1,0 +1,12 @@
+**/train_process/
+**/__pycache__/
+**/.idea/
+/demo/
+/datasets
+*.cache
+*.pth
+*.pt
+*.mat
+*.npz
+!requirements.txt
+
