@@ -4,11 +4,11 @@
 
 ### 预测模型和方法参考子项目：[guoX66/Seq_LSTM (github.com)](https://github.com/guoX66/Seq_LSTM)
 
-### 训练过程损失（以wind_y为例）：
+## 训练过程损失（以wind_y为例）：
 
 ![image](https://github.com/guoX66/wind_prediction/blob/main/assets/loss.jpg)
 
-### 预测过程图（以wind_y为例）：
+## 预测过程图（以wind_y为例）：
 
 ![image](https://github.com/guoX66/wind_prediction/blob/main/assets/pre.jpg)
 
