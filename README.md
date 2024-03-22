@@ -56,7 +56,7 @@
         --2019-01-10.csv
 ```
 
-### 运行数据处理程序，处理过程保存在analysis文件夹中，处理后的数据将保存在analysis-data.npz中
+### 运行数据处理程序，处理过程保存在analysis文件夹中，处理后的数据将保存在子项目Seq_LSTM/data/static.npz中
 
 ```bash
 python deal.py --file datasets --output Seq_LSTM/data/static.npz
