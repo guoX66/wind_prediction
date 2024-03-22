@@ -43,20 +43,20 @@
 
 # 2、数据处理
 
-### 数据已经保存在release中，数据来源：https://www.industrial-bigdata.com
+### 数据已经保存在[Release](https://github.com/guoX66/wind_prediction/releases/tag/release-v1.0.0)中，数据来源：https://www.industrial-bigdata.com
 
-### 将解压后的datasets文件夹放到项目目录下
+### 下载后解压，将解压后的datasets文件夹放到项目目录下
 
 ```
 --wind_prediction
-    --database
+    --datasets
         --2019-01-01.csv
         --2019-01-02.csv
         ...
         --2019-01-10.csv
 ```
 
-运行数据处理程序，处理过程保存在analysis文件夹中，处理后的数据将保存在analysis-data.npz中
+### 运行数据处理程序，处理过程保存在analysis文件夹中，处理后的数据将保存在analysis-data.npz中
 
 ```bash
 python deal.py --file datasets --output Seq_LSTM/data/static.npz
@@ -66,7 +66,7 @@ python deal.py --file datasets --output Seq_LSTM/data/static.npz
 
 ## 多元线性回归分析
 
-经过数据处理步骤，用matlab运行Linear.m文件即可,处理后的结果保存在analysis文件夹中
+### 经过数据处理步骤，用matlab运行Linear.m文件即可,处理后的结果保存在analysis文件夹中
 
 
 
@@ -77,3 +77,5 @@ python deal.py --file datasets --output Seq_LSTM/data/static.npz
 ```bash
 cd Seq_LSTM
 ```
+
+### ！！！！需要注意的是本项目的数据已经完成标准化，在训练时请选择无标准模式！！！！
